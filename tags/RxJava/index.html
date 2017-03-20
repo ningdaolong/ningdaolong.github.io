@@ -112,9 +112,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
+      applicationID: 'RG5MFR8GGR',
+      apiKey: 'd1b4c92e6e1302510cce585e33ed1b87',
+      indexName: 'MrNing',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -221,9 +221,47 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -254,9 +292,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2017/03/17/RxJava-One/" itemprop="url">
+            <a class="post-title-link" href="/2017/03/20/RxJava-One/" itemprop="url">
               
-                <span itemprop="name">RxJava_One</span>
+                <span itemprop="name">RxJava2.0 第一章 基础</span>
               
             </a>
         
@@ -264,9 +302,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-17T15:31:05+08:00"
-              content="2017-03-17" >
-          03-17
+              datetime="2017-03-20T00:00:00+08:00"
+              content="2017-03-20" >
+          03-20
         </time>
       </div>
 
@@ -326,6 +364,15 @@
             </div>
           
 
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
           
 
           
@@ -519,6 +566,19 @@
   
 
   
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
 
 
   

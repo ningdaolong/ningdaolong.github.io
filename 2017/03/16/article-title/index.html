@@ -90,14 +90,14 @@
 <meta name="description" content="2017年3月16日15:30:07 使用Node.js+Git+GitHub+hexo
 安装Node.js64位下载地址 node.js配置Git注册GitHub新建代码库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="hexo+GitHub搭建博客流程">
 <meta property="og:url" content="https://ningdaolong.github.io/2017/03/16/article-title/index.html">
 <meta property="og:site_name" content="MrNing Blog">
 <meta property="og:description" content="2017年3月16日15:30:07 使用Node.js+Git+GitHub+hexo
 安装Node.js64位下载地址 node.js配置Git注册GitHub新建代码库">
-<meta property="og:updated_time" content="2017-03-17T07:31:47.882Z">
+<meta property="og:updated_time" content="2017-03-17T07:34:19.273Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
+<meta name="twitter:title" content="hexo+GitHub搭建博客流程">
 <meta name="twitter:description" content="2017年3月16日15:30:07 使用Node.js+Git+GitHub+hexo
 安装Node.js64位下载地址 node.js配置Git注册GitHub新建代码库">
 
@@ -116,9 +116,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
+      applicationID: 'RG5MFR8GGR',
+      apiKey: 'd1b4c92e6e1302510cce585e33ed1b87',
+      indexName: 'MrNing',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -133,7 +133,7 @@
 
 
 
-  <title> Hello World | MrNing Blog </title>
+  <title> hexo+GitHub搭建博客流程 | MrNing Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -225,9 +225,47 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -273,7 +311,7 @@
             
             
               
-                Hello World
+                hexo+GitHub搭建博客流程
               
             
           </h1>
@@ -371,8 +409,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/03/17/RxJava-One/" rel="prev" title="RxJava_One">
-                RxJava_One <i class="fa fa-chevron-right"></i>
+              <a href="/2017/03/20/RxJava-One/" rel="prev" title="RxJava2.0 第一章 基础">
+                RxJava2.0 第一章 基础 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -451,6 +489,15 @@
             </div>
           
 
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
           
 
           
@@ -664,6 +711,19 @@
   
 
   
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
 
 
   
